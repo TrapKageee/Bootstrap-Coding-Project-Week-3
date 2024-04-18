@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-dark bg-dark vstack"> 
+        <div class="container-fluid"></div>
+        <a class="navbar-brand" href="#">Contact Us</a>
+        <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-align" href="index.html" >Home</a>
+            </li>
+          </ul>
+    </nav>
+<!--Added the same starter code but just adjusting a few things for the Concact us page including adding vertical stack-->
+    <h3 class="text-white">Leave your Information and we'll get back to you!  </h3>
+
+    <form> <!--Created a Form-->
+<div class="vstack"> <!--Vertically stacking the form in case the window or screen is small-->
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter Name" name="Name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter Phone Number" name="Number">
+    </div>
+    <div class="col">
+        <input type="text" class="form-control" placeholder="Enter Email" name="Email">
+      </div>
+      <input type="submit" class="btn btn-dark" value="Submit Button"> <!--Added submit button when people are done entering their information-->
+  </div>
+    </form>
+</body>
+</html>
